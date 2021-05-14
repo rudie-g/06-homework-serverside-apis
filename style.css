@@ -1,0 +1,34 @@
+.cards {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.forecastCard {
+    border-style: groove;
+    border-width: 0.5px;
+    border-radius: 1.5%;
+    padding: 15px;
+}
+  
+.forecastCard h3 {
+    text-align: center;
+}
+  
+.forecastCard p {
+    text-align: center;
+}
+  
+.forecastCard img {
+    width: 100%;
+}
+
+aside {
+    width: 33.33%;
+    padding: 40px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h6 {
+    text-decoration: underline;
+}

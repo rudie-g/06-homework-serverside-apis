@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Materialize CSS Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Weather App</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <input type="text" id="city">
+                        </li>
+                        <li>
+                            <button id="searchBtn">Search</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="cards row">
+                <div id="currentDay" class="forecastCard col s8">
+                  <h3 id="currentCity">Search A City</h3>
+                  <img src="">
+                  <ul>
+                      <li>
+                          <p id="currentTemp">Temp:</p>
+                      </li>
+                      <li>
+                          <p id="currentWind">Wind:</p>
+                      </li>
+                      <li>
+                          <p id="currentHumidity">Humidity:</p>
+                      </li>
+                      <li>
+                          <p id="currentUVIndex">UV Index:</p>
+                      </li>
+                  </ul>
+                  <br>
+                  <hr>
+                  <h5>5 Day Forecast</h5>
+                    <div id="day1" class="forecastCard col s3">
+                        <h3>Day 1</h3>
+                        <img src="">
+                        <ul>
+                            <li>
+                                <p id="oneTemp">Temp:</p>
+                            </li>
+                            <li>
+                                <p id="oneWind">Wind:</p>
+                            </li>
+                            <li>
+                                <p id="oneHumidity">Humidity:</p>
+                            </li>
+                            <li>
+                                <p id="oneUVIndex">UV Index:</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="day2" class="forecastCard col s3">
+                        <h3>Day 2</h3>
+                        <img src="">
+                        <ul>
+                            <li>
+                                <p id="twoTemp">Temp:</p>
+                            </li>
+                            <li>
+                                <p id="twoWind">Wind:</p>
+                            </li>
+                            <li>
+                                <p id="twoHumidity">Humidity:</p>
+                            </li>
+                            <li>
+                                <p id="twoUVIndex">UV Index:</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="day3" class="forecastCard col s2">
+                        <h3>Day 3</h3>
+                        <img src="">
+                        <ul>
+                            <li>
+                                <p id="threeTemp">Temp:</p>
+                            </li>
+                            <li>
+                                <p id="threeWind">Wind:</p>
+                            </li>
+                            <li>
+                                <p id="threeHumidity">Humidity:</p>
+                            </li>
+                            <li>
+                                <p id="threeUVIndex">UV Index:</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="day4" class="forecastCard col s2">
+                        <h3>Day 4</h3>
+                        <img src="">
+                        <ul>
+                            <li>
+                                <p id="fourTemp">Temp:</p>
+                            </li>
+                            <li>
+                                <p id="fourWind">Wind:</p>
+                            </li>
+                            <li>
+                                <p id="fourHumidity">Humidity:</p>
+                            </li>
+                            <li>
+                                <p id="fourUVIndex">UV Index:</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="day5" class="forecastCard col s2">
+                        <h3>Day 5</h3>
+                        <img src="">
+                        <ul>
+                            <li>
+                                <p id="fiveTemp">Temp:</p>
+                            </li>
+                            <li>
+                                <p id="fiveWind">Wind:</p>
+                            </li>
+                            <li>
+                                <p id="fiveHumidity">Humidity:</p>
+                            </li>
+                            <li>
+                                <p id="fiveUVIndex">UV Index:</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="row right s4">
+                    <h6>Search History</h6>
+                    <ul class="col s12" id="searchHistory">
+
+                    </ul>
+                </aside>
+              </div>
+        </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/06-homework-serverside-apis/script.js"></script>
+</body>
+</html>
